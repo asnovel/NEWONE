@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{asset('css\bootstrap\bootstrap.min.css')}}">
+   
+</head>
+<body>
+@include('layouts.app')
+
+@yield('content')
+
+
+
+@include('layouts.footer')
+<script src="{{asset('js\bootstrap\bootstrap.bundle.min.js')}}"></script>
+    
+</body>
+</html>
